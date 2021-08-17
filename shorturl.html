@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Application that takes url and shortens it</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+    </head>
+    <body>
+        <main id='main'>   
+            <section class="main-container">
+                <div class="fields-container">
+                    <div class="input-container animate__animated animate__fadeInDown animate__delay-1s">
+                        <h1>Enter your long URL here: </h1>
+                        <form id="form" autocomplete="off">
+                            <input 
+                                type="text" 
+                                id='input' 
+                                role="textbox" 
+                                value='' 
+                                placeholder="https://example.com/kjdmdkf/kjie5643/m/"
+                                onfocus="this.placeholder = ''"
+                                >
+                            <button id="shorten">SHORTEN</button>
+                        </form>
+                    </div>
+                    <div class="output-container animate__animated animate__fadeInDown animate__delay-2s">
+                        <h2>Your short URL: </h2>
+                        <div id="responseField">  
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="./main.js"></script>
+        <script type='text/javascript' src='./config.js'></script>
+    </body>
+</html>
