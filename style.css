@@ -10,12 +10,12 @@
 }
 body{
     height: 90vh;
-    background-image: url("./rm245-bb-01.png");
+    background-image: url("./rm245-new.png");
     background-size:cover;
     resize: both;
-    overflow: scroll;
-    /* background-size:cover;
-    background-repeat: no-repeat; */
+    /* overflow: scroll; */
+    /* background-size:cover; */
+    background-repeat: no-repeat;
     font-family: 'Exo 2', sans-serif;
 }
 
@@ -30,13 +30,13 @@ body{
 }
 
 h1{
-    color: #000099;
+    color: #001d49;
 }
 
 
 h2 {
     margin-right: 2vw;
-    color: #006979;
+    color: #004853;
 }
 
 
@@ -89,21 +89,16 @@ h2 {
     max-height: 7vh;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
-
-
-
 @media only screen and (max-width: 650px){
     h1{
         color: #01013d;
     }  
     h2 {
         margin-right: 2vw;
-        color: #004853;
+        color: #000000;
     }
     body{
-        /* background-image: url("./17973908.jpg");
-        background-size:cover; */
+        background-size: 120%;
         font-size: 13px;
     }
     #input{
