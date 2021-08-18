@@ -10,11 +10,9 @@
 }
 body{
     height: 90vh;
-    background-image: url("./rm245-new.png");
+    background-image: url("./back.png");
     background-size:cover;
     resize: both;
-    /* overflow: scroll; */
-    /* background-size:cover; */
     background-repeat: no-repeat;
     font-family: 'Exo 2', sans-serif;
 }
